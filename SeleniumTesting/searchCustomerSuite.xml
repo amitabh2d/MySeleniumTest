@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Search Customer">
+
+  <test name="Basic Search NDG">
+   <classes>
+     <class name="it.gvb.selenium.testng.FilaleLoginPage"/>
+     <class name="it.gvb.selenium.testng.SearchCustomer">
+     	  <methods>
+     	  <exclude name="testNameSearch"></exclude>
+     	  <exclude name="testNDGSearch"></exclude>
+     	  <exclude name="testAdvanceSearchCustomer"></exclude>
+     	  <exclude name="testSelectCompany"></exclude>
+     	  <exclude name="testSearchComapanyNDG"></exclude>
+     	  <exclude name="testSearchComapanyName"></exclude>
+     	  <exclude name="testSearchComapanyVAT"></exclude>
+   		 </methods>
+      </class>
+    </classes>
+  </test>
+
+  <test name="Search PF Name">
+  <parameter name="browser" value="ie" />
+    <classes>
+     	  <class name="it.gvb.selenium.testng.SearchCustomer">
+     	  <methods>
+     	  <exclude name="testSelectCompany"></exclude>
+     	  <exclude name="testSearchCustomer"></exclude>
+     	  <exclude name="testNDGSearch"></exclude>
+     	  <exclude name="testSearchComapanyNDG"></exclude>
+     	  <exclude name="testSearchComapanyName"></exclude>
+     	  <exclude name="testSearchComapanyVAT"></exclude>
+     	  </methods>
+     	  </class>
+    </classes>
+  </test>
+  
+  <test name="Search PF NDG">
+   <classes>
+     <class name="it.gvb.selenium.testng.SearchCustomer">
+     	  <methods>
+     	  <exclude name="testNameSearch"></exclude>
+     	  <exclude name="testSearchCustomer"></exclude>
+     	  <exclude name="testAdvanceSearchCustomer"></exclude>
+     	  <exclude name="testSelectCompany"></exclude>
+     	  <exclude name="testSearchComapanyNDG"></exclude>
+     	  <exclude name="testSearchComapanyName"></exclude>
+     	  <exclude name="testSearchComapanyVAT"></exclude>
+   		 </methods>
+      </class>
+    </classes>
+  </test>
+  
+  
+   <test name="Search Company NDG">
+   <classes>
+     <class name="it.gvb.selenium.testng.SearchCustomer">
+     	  <methods>
+     	  <exclude name="testSearchCustomer"></exclude>
+     	  <exclude name="testNDGSearch"></exclude>
+     	  <exclude name="testAdvanceSearchCustomer"></exclude>
+     	  <exclude name="testNameSearch"></exclude>
+     	  <exclude name="testSearchComapanyName"></exclude>
+     	  <exclude name="testSearchComapanyVAT"></exclude>
+   		 </methods>
+      </class>
+    </classes>
+  </test>
+  
+  
+    <test name="Search Company Name">
+   <classes>
+     <class name="it.gvb.selenium.testng.SearchCustomer">
+     	  <methods>
+     	  <exclude name="testSelectCompany"></exclude>
+     	  <exclude name="testSearchCustomer"></exclude>
+     	  <exclude name="testAdvanceSearchCustomer"></exclude>
+     	  <exclude name="testNDGSearch"></exclude>
+     	  <exclude name="testNameSearch"></exclude>
+     	  <exclude name="testSearchComapanyNDG"></exclude>
+     	  <exclude name="testSearchComapanyVAT"></exclude>
+   		 </methods>
+      </class>
+    </classes>
+  </test>
+  		  
+    <test name="Search Company VAT">
+   <classes>
+     <class name="it.gvb.selenium.testng.SearchCustomer">
+     	  <methods>
+     	  <exclude name="testSelectCompany"></exclude>
+     	  <exclude name="testSearchCustomer"></exclude>
+     	  <exclude name="testAdvanceSearchCustomer"></exclude>
+     	  <exclude name="testNDGSearch"></exclude>
+     	  <exclude name="testNameSearch"></exclude>
+     	  <exclude name="testSearchComapanyName"></exclude>
+     	  <exclude name="testSearchComapanyNDG"></exclude>
+   		 </methods>
+      </class>
+    </classes>
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->

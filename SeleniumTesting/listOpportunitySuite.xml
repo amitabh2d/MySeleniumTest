@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="List Opportunityr">
+
+  <test name="Nevigate Opportunity">
+   <classes>
+     <class name="it.gvb.selenium.testng.FilaleLoginPage"/>
+     <class name="it.gvb.selenium.testng.ListOpportunity"/>
+    </classes>
+  </test><!-- Test -->
+</suite> <!-- Suite -->
